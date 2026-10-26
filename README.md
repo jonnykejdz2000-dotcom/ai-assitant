@@ -1,54 +1,41 @@
 # AI Assistant
 
+This is a free AI assistant which is not visible in screenshots or broadcasts (this feature can be disabled in the settings)
+that updates itself—which is to say, there’s no oversight for
+this project, lol. It just does whatever it wants. You can submit suggestions for improvements, and 
+if it likes them, it’ll implement them. Actually, I lied—the only thing I do manually is upload new versions to GitHub.
 Настольный ИИ-ассистент для Windows: видит экран, управляет мышью и клавиатурой, отвечает на
-вопросы и пишет код. Работает через бесплатные и платные API (Groq, Mistral, OpenRouter, NVIDIA
-NIM, Google Gemini, GitHub Models, Ollama, OpenAI, xAI, Together AI, DeepSeek) — ключ выбираете вы.
+вопросы и пишет код. Works via free and paid options API (Groq, Mistral, OpenRouter, NVIDIA
+NIM, Google Gemini, GitHub Models, Ollama, OpenAI, xAI, Together AI, DeepSeek) — You choose the key.
 
-## Возможности
+## Possibilities
 
-- Панель поверх всех окон, скрыта от записи/трансляции экрана
-- Пауза, стоп, история задач, горячие клавиши
-- Голосовой ввод (🎙, Ctrl+Alt+V)
-- Память: ассистент запоминает прошлые задачи и результаты
-- Несколько ключей API сразу — программа сама выбирает самый быстрый или переключается вручную
-- Калибровка точности кликов (◎)
-- Интерфейс: русский, English, Français
-- Анонимные предложения прямо из программы (💬)
-- Запускается в трее, автозапуск с Windows, права администратора — запрашиваются один раз
+- Panel that stays on top of all other windows; hidden from screen recordings and broadcasts
+- Pause, stop, task history, and hotkeys
+- Voice input (🎙, Ctrl+Alt+V)
+- Memory: the assistant remembers past tasks and their results
+- Support for multiple API keys — the program automatically selects the fastest one, or you can switch between them manually
+- Click accuracy calibration (◎)
+- Interface languages: Russian, English, Français
+- Anonymous feedback/suggestions sent directly from the app (💬)
+- Runs in the system tray; supports automatic startup with Windows; administrator privileges requested only once
 
-## Установка
+## Installation
 
-```
-pip install requests mss pyautogui pillow pyperclip pysocks pystray
-pip install SpeechRecognition sounddevice numpy   # голосовой ввод, необязательно
-python ai_assistant_free.py
-```
+Upon the first launch, a setup window will appear: select an AI service, obtain a free key via
+the link provided in that same window, and paste it in. Details can be found with each model.
 
-При первом запуске откроется окно настройки: выберите сервис ИИ, получите там бесплатный ключ по
-ссылке в этом же окне и вставьте его. Подробности — в комментариях в начале `ai_assistant_free.py`.
+## Project update
 
-## Сборка в .exe
+The program itself handles project updates—in other words, it updates itself.
+You can submit your suggestions, and the program will take them into account.
 
-1. Положите рядом свой значок как `app.ico` (сделать его из картинки: `python png_to_ico.py моя_картинка.png`).
-2. Запустите `build.bat`.
-3. Готовый файл — `dist/AIAssistant.exe`.
+## Important
 
-`clean.bat` — очистка перед пересборкой с нуля.
+- The program controls the mouse and keyboard and hides its window from screen recording — use it however you like.
+- Keep your API keys to yourself (stored in `%APPDATA%\AIAssistant\config.json`); do not include them in any repository.
+- This is an educational/personal project provided without any guarantees; use it at your own risk.
 
-## Обновление проекта (для разработчика)
+## License
 
-В репозитории есть необязательный локальный инструмент `updater_agent.py`: раз в неделю (или по
-команде) читает код, предлагает небольшие улучшения и кладёт их черновиком в `updates/` — ничего
-не публикует и не применяет сам. Подробности — в его docstring. Этот инструмент не нужен, чтобы
-просто пользоваться ассистентом.
-
-## Важно
-
-- Программа управляет мышью и клавиатурой и скрывает своё окно от записи экрана — не используйте
-  её там, где это запрещено правилами (экзамены, собеседования и т. п.).
-- Ключи API храните только у себя: `%APPDATA%\AIAssistant\config.json`, не в репозитории.
-- Это учебный/личный проект без гарантий; используйте на свой риск.
-
-## Лицензия
-
-<!-- Добавьте, например, MIT, если не возражаете против свободного использования кода другими. -->
+i dont know what is this
