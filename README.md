@@ -20,7 +20,7 @@ NIM, Google Gemini, GitHub Models, Ollama, OpenAI, xAI, Together AI, DeepSeek) â
 - Anonymous feedback/suggestions sent directly from the app (ðŸ’¬)
 - Runs in the system tray; supports automatic startup with Windows; administrator privileges requested only once
 
-## Donation (for promoting the project)
+## Donation (for promoting the project). With this support, the assistant will respond in a matter of seconds.
 
 https://www.donationalerts.com/r/zamkov_cuming
 
