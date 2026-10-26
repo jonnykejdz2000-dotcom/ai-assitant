@@ -15,8 +15,8 @@ NIM, Google Gemini, GitHub Models, Ollama, OpenAI, xAI, Together AI, DeepSeek) �
 - Voice input (🎙, Ctrl+Alt+V)
 - Memory: the assistant remembers past tasks and their results
 - Support for multiple API keys — the program automatically selects the fastest one, or you can switch between them manually
-- Click accuracy calibration (◎)
-- Interface languages: Russian, English, Français
+- Click accuracy calibration (◎) - You’ll have to wait a little while—don’t be alarmed, everything is going according to plan.
+- Interface languages: English, Français, Russian.
 - Anonymous feedback/suggestions sent directly from the app (💬)
 - Runs in the system tray; supports automatic startup with Windows; administrator privileges requested only once
 
