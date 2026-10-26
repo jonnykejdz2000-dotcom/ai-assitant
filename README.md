@@ -20,6 +20,10 @@ NIM, Google Gemini, GitHub Models, Ollama, OpenAI, xAI, Together AI, DeepSeek) â
 - Anonymous feedback/suggestions sent directly from the app (ðŸ’¬)
 - Runs in the system tray; supports automatic startup with Windows; administrator privileges requested only once
 
+## Donation (for promoting the project)
+
+https://www.donationalerts.com/r/zamkov_cuming
+
 ## Installation
 
 Upon the first launch, a setup window will appear: select an AI service, obtain a free key via
