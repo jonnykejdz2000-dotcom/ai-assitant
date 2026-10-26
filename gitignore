@@ -1,0 +1,30 @@
+# Сборка (создаются build.bat / clean.bat)
+build/
+dist/
+__pycache__/
+*.pyc
+*.spec
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Локальные данные updater_agent.py - не для репозитория
+updates/
+updater_memory.json
+suggestions.md
+
+# На случай, если что-то из этого окажется рядом с проектом, а не в %APPDATA%
+config.json
+settings.json
+history.json
+memory.json
+dialog_log.jsonl
+calibration.json
+best_model.json
+error.log
