@@ -7,6 +7,7 @@ if it likes them, it’ll implement them. Actually, I lied—the only thing I do
 Настольный ИИ-ассистент для Windows: видит экран, управляет мышью и клавиатурой, отвечает на
 вопросы и пишет код. Works via free and paid options API (Groq, Mistral, OpenRouter, NVIDIA
 NIM, Google Gemini, GitHub Models, Ollama, OpenAI, xAI, Together AI, DeepSeek) — You choose the key.
+And yes, I made a one-letter typo when creating the project on GitHub.
 
 ## Possibilities
 
